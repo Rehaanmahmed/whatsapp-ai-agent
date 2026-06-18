@@ -1,3 +1,4 @@
+
 # WhatsApp AI Agent
 
 A WhatsApp AI Agent built using Node.js, Baileys, and Google Gemini.
@@ -51,3 +52,29 @@ services/
 tools.js
 index.js
 ```
+
+# WhatsApp AI Agent
+
+WhatsApp AI Agent built using Node.js, Baileys and Google Gemini.
+
+## Features
+
+- WhatsApp Integration
+- AI Auto Replies
+- Function Calling
+- Weather Tool
+- Calculator Tool
+- Reminder Tool
+
+## Installation
+
+npm install
+
+Create a .env file:
+
+GEMINI_API_KEY=YOUR_API_KEY
+
+Run:
+
+node index.js
+

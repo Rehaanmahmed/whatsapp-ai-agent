@@ -1,3 +1,5 @@
+const { evaluate } = require("mathjs");
+
 function getWeather(city) {
   return {
     city,
@@ -8,7 +10,7 @@ function getWeather(city) {
 
 function calculate(expression) {
   try {
-    return eval(expression).toString();
+    return evaluate(expression).toString();
   } catch {
     return "Invalid expression";
   }
